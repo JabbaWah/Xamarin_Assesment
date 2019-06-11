@@ -3,21 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
-namespace Xamarin1019011_Task2
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace Xamarin1019011_Task2.Views
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Login : ContentPage
     {
-        public MainPage()
+        public Login()
         {
             InitializeComponent();
-
         }
-        public void OnOnLoginButtonClicked()
-        {
-
-        }
-        
     }
 }
