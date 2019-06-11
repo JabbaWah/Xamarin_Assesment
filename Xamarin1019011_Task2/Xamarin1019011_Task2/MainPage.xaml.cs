@@ -14,10 +14,6 @@ namespace Xamarin1019011_Task2
             InitializeComponent();
 
         }
-        public void OnOnLoginButtonClicked()
-        {
-
-        }
         
     }
 }

@@ -6,12 +6,6 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Username" />
-        <Entry x:Name="usernameEntry" Placeholder="username" />
-        <Label Text="Password" />
-        <Entry x:Name="passwordEntry" IsPassword="true" />
-        <Button Text="Login" Clicked="OnLoginButtonClicked" />
-        <Label x:Name="messageLabel" />
     </StackLayout>
 
 </ContentPage>
